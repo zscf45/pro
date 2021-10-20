@@ -1,0 +1,130 @@
+/*초기화*/
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  html, body{
+    font-family: 'Hahmlet', serif, sans-serif;
+    font-size: 12px;
+  }
+  body{
+    margin: 0px auto;
+  }
+  a{
+    text-decoration: none;
+    color: black;    
+  }
+  li{
+    list-style: none;
+  }
+  img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/*------------login-------------*/
+body{
+  background: black;
+}
+.login {  
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  background: black;
+}
+.login h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin: 20px 0 50px;
+}
+.login .idpw {
+  position: relative;
+  left:40px;
+  padding: 5px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.login .idpw input[type="text"],
+.login .idpw input[type="password"]{
+  position: relative;
+  vertical-align: middle;
+  font-size:20px;
+  padding:7px;
+  left:10px;
+}
+#id {
+  width:230px;
+}
+#pw {
+  width:230px;
+}
+.login .idpw input[type="text"]{
+  left:29px;
+}
+.login .sign {
+  position:absolute; right:15px;top:135px;
+}
+.login .sign button {
+  display:block;
+  width: 100px; height:100px;
+  background: #7b1fa2;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 30px;
+}
+.login .forgot {
+  padding:5px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.login .forgot a {
+  display: block;
+  margin:10px 0;
+  color: #fff;
+  font-size: 20px;
+}
+.login .forgot a:hover{
+  text-decoration-line: underline;
+}
+/*------button-----*/
+.login-type {
+  text-align: center;
+}
+a.btn {
+  margin:auto;
+  display: block;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  width: 250px;
+  height:50px;
+  margin-bottom: 10px;
+}
+
+a.btn:active{
+  position: relative;
+  top:2px;
+}
+
+a.btn1 {
+  content: url(img/dtb_icon2.PNG);
+}
+a.btn2 {
+  background-color: #03C75A;
+  content: url(img/btnG_official.png);
+}
+a.btn3 {
+  background-color: #fff;
+  content: url(img/btn_google_signin_light_normal_web@2x.png);
+}
+a.btn4 {
+  background-color: #fee500;
+  content: url(img/kakao_login_large_narrow.png);
+}
